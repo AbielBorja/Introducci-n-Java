@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+// Comentario
 @RestController
 @RequestMapping("/v1/hello-world")
 public class HelloWorldController {
@@ -37,7 +37,7 @@ public class HelloWorldController {
         Persona p2 = new Persona();
         p2.setNombre("Juanito");
         p2.setEdad(20);
-        List<Persona> personaList = new ArrayList<>();  
+        List<Persona> personaList = new ArrayList<>();
         personaList.add(p);
         personaList.add(p2);
         return new ResponseEntity<>(personaList, HttpStatus.OK);
