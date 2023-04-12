@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ejercicioEureka.iml" filepath="$PROJECT_DIR$/.idea/ejercicioEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prueba-eureka-main/erueka.iml" filepath="$PROJECT_DIR$/prueba-eureka-main/erueka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prueba-gateway-main/gateway.iml" filepath="$PROJECT_DIR$/prueba-gateway-main/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prueba-users-main/users.iml" filepath="$PROJECT_DIR$/prueba-users-main/users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prueba-vehicle-main/prueba-vehicle-main/vehicle.iml" filepath="$PROJECT_DIR$/prueba-vehicle-main/prueba-vehicle-main/vehicle.iml" />
+    </modules>
+  </component>
+</project>

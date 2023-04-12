@@ -1,0 +1,20 @@
+server:
+  port: 8091
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id: user
+          uri: lb://users-ms
+          predicates:
+            - Path=/v1/user/**
+        - id: vehicle
+          uri: lb://vehicle-ms
+          predicates:
+            - Path=/v1/vehicle/**
