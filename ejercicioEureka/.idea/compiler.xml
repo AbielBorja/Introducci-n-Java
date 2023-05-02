@@ -6,16 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="new-vehicle" />
+        <module name="vehicle (1)" />
         <module name="erueka" />
         <module name="users" />
         <module name="gateway" />
-        <module name="vehicle" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="erueka" target="17" />
-      <module name="gateway" target="17" />
-      <module name="users" target="17" />
+      <module name="new-vehicle" target="18" />
       <module name="vehicle" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +24,8 @@
       <module name="gateway" options="-parameters" />
       <module name="users" options="-parameters" />
       <module name="vehicle" options="-parameters" />
+      <module name="vehicle (1)" options="-parameters" />
+      <module name="vehicle (2)" options="-parameters" />
     </option>
   </component>
 </project>
