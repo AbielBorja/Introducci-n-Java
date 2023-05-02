@@ -7,7 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="new-vehicle" />
-        <module name="vehicle (1)" />
         <module name="erueka" />
         <module name="users" />
         <module name="gateway" />
@@ -15,7 +14,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="new-vehicle" target="18" />
-      <module name="vehicle" target="17" />
+      <module name="vehicle (1)" target="17" />
+      <module name="vehicle (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
